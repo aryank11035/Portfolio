@@ -1,4 +1,4 @@
-import projectImg from '../assets/portfolioSC.png'
+import projectImg from '../assets/portfolio.png'
 import wordleImg from '../assets/wordleSC.png'
 import chefkateImg from '../assets/chefKateSC.png'
 import todolistImg from '../assets/todolistSC.png'

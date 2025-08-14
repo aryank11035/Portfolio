@@ -5,7 +5,7 @@
 @theme{
   --font-space-grotesk : "Space Grotesk", sans-serif;
   --breakpoint-1000: 1000px;
-
+  --breakpoint-900: 900px
 }
 
 @layer base{

@@ -6,6 +6,8 @@ import Header from './components/Header'
 import SectionHero from './components/SectionHero'
 import IconFill from './components/animations/IconFill'
 import SectionSkills from './components/SectionSkills'
+import SectionAbout from './components/SectionAbout'
+import SectionProjects from './components/SectionProjects'
 function App() {
 
   return (
@@ -13,6 +15,8 @@ function App() {
       <Header/>
       <SectionHero/>
       <SectionSkills/>
+      <SectionAbout />
+      <SectionProjects />
     </>
   )
 }
@@ -20,4 +24,4 @@ function App() {
 
 
 
-export default App
+export default App  

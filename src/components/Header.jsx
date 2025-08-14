@@ -5,11 +5,11 @@ export default function Header(){
     
     return(
         <>
-           <header className="w-full h-20 flex items-center justify-center bg-white">
+           <header className="sticky w-full h-20 flex items-center justify-center bg-white">
                 <nav className="0 h-full   md:w-[1200px] w-full ">
                     <div className=" h-full flex items-center justify-between px-3">
                         <a className=" h-fit flex md:w-fit items-center gap-2 w-[120px] cursor-pointer" href="#">
-                            <img src={Logo} className="size-12"/>
+                            <img src={Logo} className="size-12 "/>
                             <span className="font-medium text-[1.1rem]">Aryan Kate</span>
                         </a> 
                         <ul className="hidden 1000:flex gap-12 font-medium text-[1.1rem] ">

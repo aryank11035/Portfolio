@@ -1,8 +1,12 @@
-export default function IconFill({children}){
+export default function IconFill({children,size}){
+    const sizeClasses = {
+        medium: "w-10 h-10 md:w-[50px] md:h-[50px]",
+        large: "w-full h-[130px] md:h-[180px]"
+    }
     return(
        <a
         href="#"
-        className="relative inline-flex items-center justify-center gap-2 p-2 md:p-3.5 border border-black  bg-white text-black     overflow-hidden isolate transition-colors duration-300 ease-in-out group"
+        className={`relative inline-flex items-center justify-center gap-2  ${sizeClasses[size] || sizeClasses.medium} border border-black  bg-white text-black     overflow-hidden isolate transition-colors duration-300 ease-in-out group`}
         >
             {/* Background hover layer */}
             <span

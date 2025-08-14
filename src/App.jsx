@@ -4,12 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import SectionHero from './components/SectionHero'
+import IconFill from './components/animations/IconFill'
+import SectionSkills from './components/SectionSkills'
 function App() {
 
   return (
     <>
-      <Header></Header>
-      <SectionHero></SectionHero>
+      <Header/>
+      <SectionHero/>
+      <SectionSkills/>
     </>
   )
 }

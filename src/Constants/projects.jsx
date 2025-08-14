@@ -1,7 +1,7 @@
-import projectImg from '../assets/sc/portfolioSC.png'
-import wordleImg from '../assets/sc/wordleSC.png'
-import chefkateImg from '../assets/sc/chefKateSC.png'
-import todolistImg from '../assets/sc/todolistSC.png'
+import projectImg from '../assets/portfolioSC.png'
+import wordleImg from '../assets/wordleSC.png'
+import chefkateImg from '../assets/chefKateSC.png'
+import todolistImg from '../assets/todolistSC.png'
 const projects = {
     portfolio : {
         number: '01',

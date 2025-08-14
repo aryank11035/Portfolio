@@ -3,7 +3,7 @@ export default function ProjectCards(){
     return (Object.values(projects).map((project,index) => (
         <>
             <div key={project.title} className='w-full flex px-7.5'>
-                <div className={`flex w-full gap-10 p-5 items-center justify-center border border-gray-800 hover:bg-[rgba(255,255,255,0.12)] duration-500 flex-col 1000:flex-row
+                <div className={`flex w-full gap-10 p-5 items-center justify-center border border-gray-800 hover:bg-[rgba(255,255,255,0.12)] duration-800 flex-col 1000:flex-row
                                 ${index % 2 !== 0 ? "1000:flex-row-reverse" : ""}
                                 `}>
                         

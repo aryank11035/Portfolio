@@ -2,8 +2,8 @@ export default function SectionAbout(){
 
     return (
         <>
-            <section className='w-full  flex justify-center items-center mb-16 '>
-                <div className='md:w-[1200px] w-full  flex flex-col  items-start  text-2xl md:text-6xl gap-8 px-3 py-2 '>
+            <section id="about"className='w-full  flex justify-center items-center mb-16 mt-18'>
+                <div className='md:w-[1200px] w-full  flex flex-col  items-start  text-2xl md:text-6xl gap-8 px-3 py-18  '>
                     <h1 className='font-light flex items-center justify-center w-full'>About&nbsp;<span className='font-medium'>Me</span></h1>
                         <p className='text-sm md:text-[1.3rem] font-light '>
                         <h1 className='font-semibold pb-5 text-xl md:text-2xl'>Who am I?</h1>

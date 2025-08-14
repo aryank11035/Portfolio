@@ -2,8 +2,9 @@ import IconFill from "./animations/IconFill"
 export default function SectionSkills(){
     return(
         <>
-            <section className='flex items-center justify-center gap-20 w-full bg-black mb-16'>
-                <div className="md:w-[1200px] w-full flex flex-col gap-20 text-center items-center justify-center px-3 py-32 ">
+            <section id="skills" className='flex flex-col items-center justify-center gap-20 w-full bg-black'>
+                <div className="bg-white w-full h-[70px]"></div>
+                <div className="md:w-[1200px] w-full flex flex-col gap-20 text-center items-center justify-center px-3 py-16 pb-44 ">
 
                     <h1 className='font-light md:text-6xl text-2xl text-white'>My <span className='font-medium'>Skills</span></h1>
                     <div className=' grid w-full grid-cols-2 grid-rows-2 gap-8 1000:grid-cols-5 1000:grid-rows-2  '>

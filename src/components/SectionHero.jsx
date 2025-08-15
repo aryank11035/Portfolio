@@ -7,7 +7,7 @@ export default function SectionHero(){
     return(
         <>
             <section className='flex  justify-center  md:h-[700px] h-[500px] ' >
-                <div className='md:w-[1200px] w-full h-full pt-[50px]  md:pt-[100px] px-3 py-10 flex flex-col gap-10'>
+                <div className='max-w-[1200px] w-full h-full pt-[50px]  md:pt-[100px] px-3 py-10 flex flex-col gap-10'>
                     <div className=' w-full flex flex-col gap-12 '>
                                     <div className='md:text-6xl text-2xl font-light'>
                                         <h1>Hello, I'm&nbsp; 
@@ -44,7 +44,7 @@ export default function SectionHero(){
                                             </span>
                                         </h1>
                                     </div>
-                                    <div className=' text-wrap text-sm md:text-xl w-fit md:w-[600px] font-light'>
+                                    <div className=' text-wrap text-sm md:text-xl w-fit md:w-[600px] font-light px-1'>
                                         <p>
                                             
                                             <DecryptedText
@@ -59,7 +59,7 @@ export default function SectionHero(){
                                     </div>
                             
                     </div>
-                    <div className='w-fit '>
+                    <div className='w-fit px-1'>
                         <div className='gap-2.5 md:gap-5 flex justify-center items-center '>
                         <IconFill size={"medium"} mode={"white"}><i className="fa-brands fa-github text-xl md:text-2xl"></i></IconFill>
                     

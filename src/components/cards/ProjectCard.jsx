@@ -2,16 +2,16 @@ import projects from "../../Constants/projects.jsx"
 export default function ProjectCards(){
     return (Object.values(projects).map((project,index) => (
         <>
-            <div key={project.title} className='w-full flex px-7.5'>
-                <div className={`flex w-full gap-10 p-5 items-center justify-center border border-gray-800 hover:bg-[rgba(255,255,255,0.12)] duration-250 flex-col 1000:flex-row
+            <div key={project.title} className='w-full flex '>
+                <div className={`flex w-full gap-10  p-5 items-center justify-center border border-gray-800 hover:bg-[rgba(255,255,255,0.12)] duration-800 flex-col 1000:flex-row
                                 ${index % 2 !== 0 ? "1000:flex-row-reverse" : ""}
                                 `}>
                         
-                    <div className='w-full md:h-[360px] h-[160px] z-10'>
+                    <div className='w-full h-fit overflow-hidden'>
                         <img className="w-full h-full object-cover" src={project.img} alt={project.title}/>
                     </div>
 
-                    <div className='bg-transparent w-full h-fit flex flex-col gap-4 md:text-3xl text-xl leading-6 font-bold justify-between'>
+                    <div className='bg-transparent w-full h-fit flex flex-col gap-4 md:text-3xl text-xl leading-6 font-bold justify-between duration-500'>
                         <h1 >{project.number}</h1>
                         <h1>{project.title}</h1>
                         <p className='md:text-[1rem] text-sm font-light'>{project.desc}</p>

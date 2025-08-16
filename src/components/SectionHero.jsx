@@ -4,6 +4,8 @@ import DecryptedText from "./animations/DecryptedText";
 
 
 export default function SectionHero(){
+
+   
     return(
         <>
             <section className='flex  justify-center  md:h-[700px] h-[500px] ' >

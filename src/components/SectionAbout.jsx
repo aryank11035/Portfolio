@@ -4,8 +4,8 @@ export default function SectionAbout(){
         <>
             <section id="about"className='w-full  flex flex-col justify-center items-center '>
                 <div className="w-full h-[70px] bg-white"></div>
-                <div className='md:w-[1200px] w-full  flex flex-col  items-start  text-2xl md:text-6xl gap-8 px-4 py-6 mx-auto'>
-                        <h1 className='font-light flex items-center justify-center w-full '>About&nbsp;<span className='font-medium'>Me</span></h1>
+                <div className='max-w-[1200px] w-full  flex flex-col  items-start  text-2xl md:text-6xl gap-8 px-4 py-6  mx-auto'>
+                        <h1 className='font-light w-full text-center'>About&nbsp;<span className='font-medium'>Me</span></h1>
                         <p className='text-sm md:text-[1.3rem] font-light '>
                             <h1 className='font-semibold pb-5 text-xl md:text-2xl'>Who am I?</h1>
                             I’m a passionate web developer from India. I started out editing photos in Lightroom, which sparked my love for clean & minimalistic designs. Now, I’m focused on building functional, visually appealing websites and constantly learning new tools to grow.

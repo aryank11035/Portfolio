@@ -9,9 +9,9 @@ export default function SectionHero(){
     return(
         <>
             <section className='flex  justify-center border-0  mb-36' >
-                <div className='max-w-[1200px] w-full  pt-[100px]  md:pt-[200px] px-3 flex flex-col gap-10 items-center justify-start  overflow-hidden'>
+                <div className='max-w-[1200px] w-full  pt-[30px]  md:pt-[200px] px-3 flex flex-col gap-10 items-center justify-start  overflow-hidden'>
                     <div className=' w-full flex flex-col md:gap-12  gap-7'>
-                                    <div className='md:text-6xl text-[1.95rem] font-light'>
+                                    <div className='md:text-6xl text-4xl font-light md:leading-20 leading-12'>
                                         <h1>Hello, I'm&nbsp; 
                                             <span className='font-medium'>
                                                 <DecryptedText
@@ -24,9 +24,9 @@ export default function SectionHero(){
                                             </span>
                                         </h1>
                                         <h1>A&nbsp;
-                                            <span className='font-medium'>
+                                            <span className='font-medium '>
                                             <DecryptedText
-                                            text="Front End Developer"
+                                            text="Front End Web Developer"
                                             speed="60"
                                             animateOn="view"
                                             revealDirection="start"

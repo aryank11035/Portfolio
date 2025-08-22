@@ -184,11 +184,11 @@ export default function DecryptedText({
   return (
     <motion.span
       ref={containerRef}
-      className={`inline-block whitespace-pre-wrap ${parentClassName}`}
+      className={`whitespace-normal break-words ${parentClassName}`}
       {...hoverProps}
       {...props}
     >
-      <span className="sr-only">{displayText}</span>
+      <span className="sr-only text-wrap">{displayText}</span>
 
       <span aria-hidden="true">
         {displayText.split('').map((char, index) => {
@@ -198,7 +198,7 @@ export default function DecryptedText({
           return (
             <span
               key={index}
-              className={isRevealedOrDone ? className : encryptedClassName}
+              className={isRevealedOrDone ? className : encryptedClassName} 
             >
               {char}
             </span>

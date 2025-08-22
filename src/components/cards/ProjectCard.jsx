@@ -11,7 +11,7 @@ export default function ProjectCards(){
                         <img className="w-full h-full object-cover" src={project.img} alt={project.title}/>
                     </div>
 
-                    <div className='bg-transparent w-full h-fit flex flex-col gap-4 md:text-3xl text-xl leading-6 font-bold justify-between duration-500'>
+                    <div className='bg-transparent w-full h-fit flex flex-col gap-4 md:text-3xl text-2xl leading-6 font-bold justify-between duration-500'>
                         <h1 >{project.number}</h1>
                         <h1>{project.title}</h1>
                         <p className='md:text-[1rem] text-sm font-light'>{project.desc}</p>

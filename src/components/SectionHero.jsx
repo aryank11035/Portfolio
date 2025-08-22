@@ -8,10 +8,10 @@ export default function SectionHero(){
    
     return(
         <>
-            <section className='flex  justify-center border-0  mb-36' >
-                <div className='max-w-[1200px] w-full  pt-[30px]  md:pt-[200px] px-3 flex flex-col gap-10 items-center justify-start  overflow-hidden'>
-                    <div className=' w-full flex flex-col md:gap-12  gap-7'>
-                                    <div className='md:text-6xl text-4xl font-light md:leading-20 leading-12'>
+            <section className='flex  justify-center border-0 h-screen   max-h-[1000px]' >
+                <div className='max-w-[1200px] w-full  px-3 flex flex-col gap-10 items-center justify-center  overflow-hidden h-full'>
+                    <div className=' w-full flex flex-col '>
+                                    <div className='md:text-6xl text-[40px] font-light md:leading-20 leading-12'>
                                         <h1>Hello, I'm&nbsp; 
                                             <span className='font-medium'>
                                                 <DecryptedText

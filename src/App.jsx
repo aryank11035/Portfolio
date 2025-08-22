@@ -36,10 +36,10 @@ function App() {
                   <ButtonFill>Get in Touch</ButtonFill>
                 </button>
               </form>   
-              <div className=' flex flex-col gap-2.5 h-full w-full'>
-                <h1 className='md:text-3xl text-xl font-light w-full'>Let's <span className='font-semibold'>Build!</span></h1>
-                <h1 className='md:text-3xl text-xl font-light w-full '>Bring <span className='font-semibold'>Ideas to Life</span></h1>
-                <h1 className='md:text-3xl text-xl font-light w-full'>On The<span className='font-semibold'>Web</span></h1>
+              <div className=' flex flex-col gap-2.5 h-full w-full '>
+                <h1 className='md:text-3xl text-2xl font-light w-full'>Let's <span className='font-semibold'>Build!</span></h1>
+                <h1 className='md:text-3xl text-2xl font-light w-full '>Bring <span className='font-semibold'>Ideas to Life</span></h1>
+                <h1 className='md:text-3xl text-2xl font-light w-full'>On The<span className='font-semibold'>Web</span></h1>
                 <p className='md:text-[1rem] text-sm font-light leading-6.5'>
                   I’m passionate about creating clean, responsive, and interactive websites that deliver great user experiences. Whether you need a project built from scratch, improvements to an existing site, or just want to collaborate on new ideas, I’d love to connect. Let’s create something impactful together!
                 </p>

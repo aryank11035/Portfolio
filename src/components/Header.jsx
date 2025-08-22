@@ -12,7 +12,7 @@ export default function Header(){
                     <div className=" h-full flex items-center justify-between px-3 z-10 relative md:text-[1.1rem] text-[1rem]">
                         <a className=" h-fit flex md:w-fit items-center gap-2 w-[120px] cursor-pointer" href="#">
                             <img src={Logo} className="size-11.5 "/>
-                            <span className="font-medium ]">
+                            <span className="font-medium ">
                                
                                 <span className='font-medium'>
                                     <DecryptedText

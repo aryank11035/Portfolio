@@ -1,6 +1,6 @@
 export default function IconFill({children,size = "medium",mode="dark",link}){
     const sizeClasses = {
-        medium: "w-10 h-10 md:w-[50px] md:h-[50px]",
+        medium: "w-12 h-12 md:w-[50px] md:h-[50px]",
         large: "w-full h-[130px] md:h-[180px]",
     };
 

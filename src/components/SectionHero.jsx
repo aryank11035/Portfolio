@@ -8,7 +8,7 @@ export default function SectionHero(){
    
     return(
         <>
-            <section className='flex  justify-center border-0 h-screen   max-h-[1000px]' >
+            <section className='flex  justify-center border-0 h-screen   max-h-[780px] bg-blue-100' >
                 <div className='max-w-[1200px] w-full  px-3 flex flex-col gap-10 items-center justify-center  overflow-hidden h-full'>
                     <div className=' w-full flex flex-col '>
                                     <div className='md:text-6xl text-[40px] font-light md:leading-20 leading-12'>

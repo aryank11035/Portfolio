@@ -8,10 +8,10 @@ export default function SectionHero(){
    
     return(
         <>
-            <section className='flex  justify-center  md:h-[700px] h-[500px] ' >
-                <div className='max-w-[1200px] w-full h-full pt-[50px]  md:pt-[100px] px-3 py-10 flex flex-col gap-10'>
-                    <div className=' w-full flex flex-col gap-12 '>
-                                    <div className='md:text-6xl text-2xl font-light'>
+            <section className='flex  justify-center border-0  mb-36' >
+                <div className='max-w-[1200px] w-full  pt-[100px]  md:pt-[200px] px-3 flex flex-col gap-10 items-center justify-start  overflow-hidden'>
+                    <div className=' w-full flex flex-col md:gap-12  gap-7'>
+                                    <div className='md:text-6xl text-[1.95rem] font-light'>
                                         <h1>Hello, I'm&nbsp; 
                                             <span className='font-medium'>
                                                 <DecryptedText
@@ -46,7 +46,7 @@ export default function SectionHero(){
                                             </span>
                                         </h1>
                                     </div>
-                                    <div className=' text-wrap text-sm md:text-xl w-fit md:w-[600px] font-light px-1'>
+                                    <div className=' text-wrap text-[1rem] md:text-xl w-fit md:w-[600px] font-light px-1'>
                                         <p>
                                             
                                             <DecryptedText
@@ -61,11 +61,14 @@ export default function SectionHero(){
                                     </div>
                             
                     </div>
-                    <div className='w-fit px-1'>
-                        <div className='gap-2.5 md:gap-5 flex justify-center items-center '>
-                        <IconFill size={"medium"} mode={"white"}><i className="fa-brands fa-github text-xl md:text-2xl"></i></IconFill>
-                    
-                        <IconFill size={"medium"} mode={"white"}><i class="fa-brands fa-linkedin-in text-xl md:text-2xl "></i></IconFill>   
+                    <div className='w-fit px-1 mr-auto'>
+                        <div className='gap-2.5 md:gap-5 flex justify-center items-center '> 
+                        <IconFill size={"medium"} mode={"white"} link={"https://github.com/aryank11035"}> 
+                                    <i className="fa-brands fa-github text-xl md:text-2xl"></i>
+                        </IconFill>          
+                        <IconFill size={"medium"} mode={"white"} link={"https://www.linkedin.com/in/aryan-kate-7900b4251/"}>
+                            <i class="fa-brands fa-linkedin-in text-xl md:text-2xl ">
+                        </i></IconFill>   
                     
                         <IconFill size={"medium"} mode={"white"}><i class="fa-brands fa-steam text-xl md:text-2xl"></i></IconFill>
                         

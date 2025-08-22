@@ -1,4 +1,4 @@
-export default function IconFill({children,size = "medium",mode="dark"}){
+export default function IconFill({children,size = "medium",mode="dark",link}){
     const sizeClasses = {
         medium: "w-10 h-10 md:w-[50px] md:h-[50px]",
         large: "w-full h-[130px] md:h-[180px]",
@@ -16,9 +16,11 @@ export default function IconFill({children,size = "medium",mode="dark"}){
     };
     
     return(
-       <a
-        href="#"
-        className={`relative inline-flex items-center justify-center gap-2  ${sizeClasses[size]} border ${modeClasses[mode].base} overflow-hidden isolate transition-colors duration-300 ease-in-out group`}
+       <a 
+       href={link}
+       target="_blank"
+       rel="noopener noreferrer"
+        className={`relative inline-flex items-center justify-center gap-2  ${sizeClasses[size]} border ${modeClasses[mode].base} overflow-hidden  transition-colors duration-300 ease-in-out group pointer-events-auto`}
         >
             {/* Background hover layer */}
             <span   
@@ -27,6 +29,7 @@ export default function IconFill({children,size = "medium",mode="dark"}){
                 [transform-origin:top] 
                 transition-transform duration-400 ease-in-out 
                 group-hover:scale-y-100 group-hover:[transform-origin:bottom] 
+                pointer-events-none
                 z-[1]
                     ${mode === 'white' ? 'bg-black' : 'bg-white'}
                 `}

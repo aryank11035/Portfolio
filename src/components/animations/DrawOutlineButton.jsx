@@ -1,5 +1,5 @@
 import DecryptedText from "./DecryptedText";
-export default function DrawOutlineButton  ({ children, ...rest })  {
+export default function DrawOutlineButton  ({barColor = 'black' ,children, ...rest })  {
   return (
     <button
       {...rest}
@@ -16,7 +16,7 @@ export default function DrawOutlineButton  ({ children, ...rest })  {
         />
 
         {/* Underline that expands from center */}
-        <span className="absolute bottom-0 left-1/2 h-[2px] w-full bg-black scale-x-0 transform -translate-x-1/2 origin-center transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+        <span className={`absolute bottom-0 left-1/2 h-[2px] w-full ${barColor === 'white' ? 'bg-white' : 'bg-black'} scale-x-0 transform -translate-x-1/2 origin-center transition-transform duration-300 ease-out group-hover:scale-x-100`}></span>
       </span>
     </button>
   );

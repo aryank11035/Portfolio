@@ -2,6 +2,7 @@ import projectImg from '../assets/PortfolioSCUpdated.png'
 import wordleImg from '../assets/WordleSCUpdated.png'
 import chefkateImg from '../assets/ChefKateSCUpdated.png'
 import todolistImg from '../assets/ToDoListSCUpdated.png'
+import gitseekImg from '../assets/GitSeekSC.png'
 const projects = {
     portfolio : {
         number: '01',
@@ -15,13 +16,30 @@ const projects = {
             js :  <i class="fa-brands fa-css3-alt md:text-2xl text-lg"></i>,
         },
         links : {
-            site : '',
-            code : ''
+            site : 'https://portfolio-aryan-kate.vercel.app/',
+            code : 'https://github.com/aryank11035/Portfolio'
         } 
+    },
+    gitSeek: {
+        number: '02',
+        title: 'GitSeek',
+        img: gitseekImg,
+        desc:  'Git Seek is a GitHub repository visualizer built with React and React Flow. It fetches repo data from the GitHub API and transforms it into interactive, graph-based file trees, making project structures easier to explore while showcasing my skills in API integration and UI visualization.',
+        stacks: {
+            html: <i class="fa-brands fa-html5 md:text-2xl text-lg"></i>,
+            tailwind : <i class="ri-tailwind-css-fill md:text-2xl text-lg"></i>,
+            js: <i class="fa-brands fa-js md:text-2xl text-lg"></i>,
+            react : <i className="fa-brands fa-react md:text-2xl text-lg"></i>,
+            api: <p class='md:text-2xl text-lg font-space-grotesk font-semibold'>API</p>
+        },
+        links: {
+            site: 'https://git-seek-kate.vercel.app/',
+            code: 'https://github.com/aryank11035/GitSeek'
+        }
     },
 
     wordle: {
-        number: '02',
+        number: '03',
         title: 'Wordle',
         img: wordleImg,
         desc: 'This project is a custom-built version of the popular Wordle game, designed to replicate the engaging word-guessing mechanics while adding my own styling and features. The goal was to enhance my JavaScript logic skills, practice DOM manipulation, and create an interactive, responsive game that works seamlessly across devices.',
@@ -51,8 +69,8 @@ const projects = {
             api: <p class='md:text-2xl text-lg font-space-grotesk font-semibold'>API</p>
         },
         links: {
-            site: '',
-            code: ''
+            site: 'https://recipe-generator-mocha-alpha.vercel.app/',
+            code: 'https://github.com/aryank11035/recipeGenerator'
         }
     },
     todolist: {

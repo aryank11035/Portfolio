@@ -2,13 +2,13 @@ import IconFill from "./animations/IconFill"
 export default function SectionSkills(){
     return(
         <>
-            <section id="skills" className='flex flex-col items-center justify-center  w-full  bg-white border-none '>
+            <section id="skills" className='flex flex-col items-center justify-center  w-full  bg-white border-none  '>
                      <div className="w-full h-[65px] bg-white border-none "></div>
                     <div className="bg-black w-full h-fit border-none">
-                        <div className="max-w-[1200px] w-full flex flex-col md:gap-30 gap-8 text-center items-center justify-center mx-auto md:py-38 py-20 bg-black border-none">
+                        <div className="max-w-[1200px] w-full flex flex-col md:gap-30 gap-8 text-center items-center justify-center mx-auto  py-20 bg-black border-none min-h-screen">
 
                             <h1 className='font-light md:text-[40px] text-[1.95rem] text-white  w-full mx-auto'>My <span className='font-semibold'>Skills</span></h1>
-                            <div className=' grid w-full  grid-cols-2 grid-rows-2 gap-3 1000:grid-cols-5 1000:grid-rows-2 px-3.5    '>
+                            <div className=' grid w-full  grid-cols-2 grid-rows-2 gap-3 1000:grid-cols-5 1000:grid-rows-2 px-3.5  cursor-pointer  '>
                                 <IconFill size={"large"}>
                                 <div className=' flex items-center justify-center flex-col gap-8 '>
                                     <i className="fa-brands fa-react text-4xl"></i>

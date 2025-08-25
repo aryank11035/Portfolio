@@ -9,7 +9,7 @@
 
 @layer base{
   body{
-    @apply font-space-grotesk
+    @apply font-space-grotesk 
   }
 
 }

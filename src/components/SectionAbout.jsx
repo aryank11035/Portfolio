@@ -2,13 +2,13 @@ export default function SectionAbout(){
 
     return (
         <>
-            <section id="about" className='w-full  flex flex-col justify-center items-center  border-none '>
-                <div className="w-full bg-black h-[20px]">
-                    <div className="max-w-[1200px] mx-auto h-[20px] bg-black"></div>
+            <section id="about" className='w-full  flex flex-col  items-center  border-none min-h-screen'>
+                <div className="w-full bg-black h-[30px] -mt-5">
+                   
                 </div>  
 
                 <div className=" w-full h-fit pt-3">
-                    <div className='max-w-[1200px] w-full  flex flex-col  items-start  text-[1.95rem] md:text-[40px] md:gap-8 gap-6 px-4 md:py-38 py-20 mx-auto'>
+                    <div className='max-w-[1200px] w-full  flex flex-col  items-start  text-[1.95rem] md:text-[40px] md:gap-8 gap-6 px-4  py-20 mx-auto'>
                         <h1 className='font-light w-full text-center'>About&nbsp;<span className='font-semibold'>Me</span></h1>
                         <p className='text-[1rem] md:text-[1.3rem] font-light '>
                             <span className='font-semibold pb-5 text-xl md:text-2xl  block'>Who am I?</    span>

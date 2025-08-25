@@ -10,7 +10,7 @@ export default function IconFill({children,size = "medium",mode="dark",link}){
             hover: " group-hover:text-white",
         },
         dark: {
-            base: "border-slate-400 bg-black text-white",
+            base: "border-gray-400 bg-black text-white",
             hover: " group-hover:text-black",
         },
     };

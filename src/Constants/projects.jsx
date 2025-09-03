@@ -51,8 +51,8 @@ const projects = {
             
         },
         links: {
-            site: '',
-            code: ''
+            site: 'https://wordle-stream.vercel.app/',
+            code: 'https://github.com/aryank11035/WordleStream'
         }
     },
     

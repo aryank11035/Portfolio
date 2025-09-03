@@ -33,9 +33,9 @@ export default function Header(){
                             <li><a href="#certificates"><DrawOutlineButton>Certificates</DrawOutlineButton></a></li>
                             <li><a href="#contact"><DrawOutlineButton>Contact</DrawOutlineButton></a></li>
                         </ul>
-                        <a className="w-fit" download="AryanKate.pdf" href={resume}>
+                        <button className="w-fit" download="AryanKate.pdf" href={resume}>
                             <ButtonFill ><span>Resume</span><i class='bx bx-download'></i></ButtonFill>
-                        </a>
+                        </button>
                     </div>
                 </nav>
            </header>

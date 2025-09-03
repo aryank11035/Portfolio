@@ -1,10 +1,12 @@
 
 import 'boxicons'
-
+import resume from '../../assets/AryanKate.pdf'
 export default function ButtonFill({children}){
     return(
        <a
-        href="#"
+        
+        href={resume}
+        download="AryanKate.pdf"
         className="relative inline-flex items-center justify-center gap-2 px-5 py-2.5 border border-black  bg-black text-white overflow-hidden isolate transition-colors duration-300 ease-in-out group"
         >
             {/* Background hover layer */}

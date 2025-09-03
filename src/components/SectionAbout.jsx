@@ -12,7 +12,7 @@ export default function SectionAbout(){
                         <h1 className='font-light w-full text-center'>About&nbsp;<span className='font-semibold'>Me</span></h1>
                         <p className='text-[1rem] md:text-[1.3rem] font-light '>
                             <span className='font-semibold pb-5 text-xl md:text-2xl  block'>Who am I?</    span>
-                            I’m a passionate web developer from India. I started out editing photos in Lightroom, which sparked my love for clean & minimalistic designs. Now, I’m focused on building functional, visually appealing websites and constantly learning new tools to grow.
+                            I’m a web developer from India. I started out editing photos in Lightroom, which sparked my love for clean & minimalistic designs. Now, I’m focused on building functional, visually appealing websites with the help of AI and constantly learning new tools to grow.
                         </p>
                         <p className= 'text-[1rem] md:text-[1.3rem] flex flex-col font-light leading-6 md:leading-9'>
                             <span className='font-semibold pb-4 text-xl md:text-2xl '>My Education</span>

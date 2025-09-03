@@ -10,7 +10,9 @@ export default function CertificateCard(){
                                     ${index % 2 === 0 ? "1000:flex-row" : "1000:flex-row-reverse"}`}>
                     
                         <div className='w-full h-fit overflow-hidden'>
-                            <img className="w-full h-full object-cover" src={certificate.img}/>
+                            <a target="_blank" href={certificate.src}>
+                                <img className="w-full h-full object-cover" src={certificate.img} />
+                            </a>
                         </div>
             
                         <div className=' w-full h-fit flex flex-col gap-10 md:text-3xl text-2xl leading-6 font-bold justify-between duration-500 bg-transparent'>

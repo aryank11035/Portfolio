@@ -2,6 +2,7 @@ import DrawOutlineButton from "./animations/DrawOutlineButton";
 import ButtonFill from "./animations/ButtonFill";
 import Logo from './imgs/Logo.svg'
 import DecryptedText from "./animations/DecryptedText";
+import resume from '../assets/AryanKate.pdf'
 export default function Header(){
     
     return(
@@ -32,9 +33,9 @@ export default function Header(){
                             <li><a href="#certificates"><DrawOutlineButton>Certificates</DrawOutlineButton></a></li>
                             <li><a href="#contact"><DrawOutlineButton>Contact</DrawOutlineButton></a></li>
                         </ul>
-                        <button className="w-fit">
+                        <a className="w-fit" download="AryanKate.pdf" href={resume}>
                             <ButtonFill ><span>Resume</span><i class='bx bx-download'></i></ButtonFill>
-                        </button>
+                        </a>
                     </div>
                 </nav>
            </header>

@@ -11,7 +11,7 @@ const certificates = {
     },
     learnReact2 : {
         number : '02',
-        title : 'Ui Fundaments React',
+        title : 'Ui Fundaments',
         img : uiImg,
         desc : 'I completed Scrimba’s UI Fundamentals course, where I learned the core principles of good design such as layout, spacing, alignment, typography, and color theory. The course emphasized practical application, helping me understand how to create visually appealing, consistent, and user-friendly interfaces. I also worked on hands-on projects that reinforced concepts like hierarchy, contrast, and balance, giving me the skills to design clean, professional-looking UI that enhances user experience.',
         src : 'https://scrimba.com/certificate-cert24zAwPPowRQLS7EBfiDnwj3M4h5QzY2PiaR8A'
